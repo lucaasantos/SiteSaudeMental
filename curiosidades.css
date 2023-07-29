@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.voltar img{
+    width: 70px;
+    height: 70px;
+    color: #d1d1d1;
+}
+body {
+    background-image: url(img/fundo3.jpg);
+}
+.container {
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo {
+    width: 100%;
+    height: 120px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+.texto {
+    font-size: 31px;
+    font-family: 'Patua One', cursive;
+    padding: 20px;
+}

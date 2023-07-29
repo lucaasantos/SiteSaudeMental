@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+}
+
+body {
+    background:url(img/fundo2.jpg);
+    background-size: 100%;
+    height: 1600px;
+    background-repeat:round;
+}
+.container {  
+    width: 800px;
+    font-size:50px ;
+    color: rgb(0, 0, 0);
+    border-radius:40px;
+    align-items: center;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.container h1{
+    color: rgb(14, 12, 12);
+    font-family: 'Patua One', cursive;
+}
+.container2 {
+    background-color: #c7e2db;
+    width: 1200px;
+    font-size: 35px ;
+    border-radius:40px;
+    margin: 25px auto 0;
+    align-items: center;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+    margin-top: 200px;
+}
+
+.container2 h2{
+    font-family: 'Patua One', cursive;
+}
+.textos {
+    text-shadow: 0 0 1px;
+    padding: 10px 20px;
+    margin: auto;
+    font-family: 'Patua One', cursive;
+    font-size: 33px;
+}
+.titles {
+   font-size: 2.8em;
+   text-align: center;
+   float: center ;
+   padding: 0px 200px;
+   padding-top:  40px;
+
+}
+.backimg {
+  height: 40px;
+
+    
+}
+.img-back {
+    padding: 20px 30px 100px;
+    float: inline-start;
+    margin: auto;
+    padding-right: 15px;
+
+}
+.voltar img{
+    width: 70px;
+    height: 70px;
+    color: #d1d1d1;
+}

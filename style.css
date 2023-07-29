@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+
+body {
+    height: 1700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(img/fundo.jpg);
+    background-size: 100%;
+    flex-direction: column;
+    background-repeat: round;
+}
+.texto1 {
+    font-size: 20px;
+    font-family: 'Patua One', cursive;
+    width: 900px;
+}
+.container1 {
+    height: 400px;
+    width: 100%;
+}
+.container1 p {
+    font-size: 150px;
+    margin-top: 140px;
+    margin-left: 40px;
+    font-family: 'Patua One', cursive;
+}
+.container {
+    height: 600px;
+    width: 800px;
+    margin-left: 110px;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+.carousel-inner {
+    margin-top: 150px;
+    background-color: #ffe44f;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.carousel-item button {
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.carousel-inner p {
+    margin-top: 80px;
+}
+.rodape {
+    height: 630px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: center;
+}
+.info {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Patua One', cursive;
+}
+.rodape1 {
+    width: 100%;
+}
+.curiosidades {
+    width: 100%;
+    height: 100px;
+}
+.curiosidades p {
+    text-align: center;
+    margin-right: 870px;
+    font-size: 30px;
+    font-family: 'Patua One', cursive;
+}
+
+.curiosidades button {
+    width: 200px;
+    height: 225px;
+    margin-left: 420px;
+    border-radius: 100px;
+    font-family: 'Patua One', cursive;
+    background-image: url(img/botao.png);
+    cursor: pointer;
+    background-size: 100%;
+    border: 1px solid #c5e0d9;
+}
